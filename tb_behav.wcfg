@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2,488.918334 us"></ZoomStartTime>
+      <ZoomEndTime time="2,701.418335 us"></ZoomEndTime>
+      <Cursor1Time time="2,571.835000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="164"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst_n_i" type="logic">
+      <obj_property name="ElementShortName">rst_n_i</obj_property>
+      <obj_property name="ObjectShortName">rst_n_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/sda_io" type="logic">
+      <obj_property name="ElementShortName">sda_io</obj_property>
+      <obj_property name="ObjectShortName">sda_io</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/scl_o" type="logic">
+      <obj_property name="ElementShortName">scl_o</obj_property>
+      <obj_property name="ObjectShortName">scl_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/i2c_0/data_hold_done_s" type="logic">
+      <obj_property name="ElementShortName">data_hold_done_s</obj_property>
+      <obj_property name="ObjectShortName">data_hold_done_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/i2c_send_s" type="logic">
+      <obj_property name="ElementShortName">i2c_send_s</obj_property>
+      <obj_property name="ObjectShortName">i2c_send_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/i2c_done_s" type="logic">
+      <obj_property name="ElementShortName">i2c_done_s</obj_property>
+      <obj_property name="ObjectShortName">i2c_done_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/i2c_ready_s" type="logic">
+      <obj_property name="ElementShortName">i2c_ready_s</obj_property>
+      <obj_property name="ObjectShortName">i2c_ready_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rom_addr_s" type="array">
+      <obj_property name="ElementShortName">rom_addr_s[6:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_addr_s[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/i2c_0/data_s" type="array">
+      <obj_property name="ElementShortName">data_s[71:0]</obj_property>
+      <obj_property name="ObjectShortName">data_s[71:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/rom_data_s" type="array">
+      <obj_property name="ElementShortName">rom_data_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_data_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/dut/st_s" type="array">
+      <obj_property name="ElementShortName">st_s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">st_s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group26" type="group">
+      <obj_property name="label">I2C</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/dut/i2c_0/st_s" type="array">
+         <obj_property name="ElementShortName">st_s[3:0]</obj_property>
+         <obj_property name="ObjectShortName">st_s[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/i2c_0/nbytes_i" type="array">
+         <obj_property name="ElementShortName">nbytes_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">nbytes_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/i2c_0/nbytes_s" type="array">
+         <obj_property name="ElementShortName">nbytes_s[3:0]</obj_property>
+         <obj_property name="ObjectShortName">nbytes_s[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/i2c_0/bits_sent_counter_reg_s" type="array">
+         <obj_property name="ElementShortName">bits_sent_counter_reg_s[3:0]</obj_property>
+         <obj_property name="ObjectShortName">bits_sent_counter_reg_s[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/i2c_0/nbytes_cntr_s" type="array">
+         <obj_property name="ElementShortName">nbytes_cntr_s[3:0]</obj_property>
+         <obj_property name="ObjectShortName">nbytes_cntr_s[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/i2c_0/init_send_data_s" type="logic">
+         <obj_property name="ElementShortName">init_send_data_s</obj_property>
+         <obj_property name="ObjectShortName">init_send_data_s</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/i2c_0/data_byte_s" type="array">
+         <obj_property name="ElementShortName">data_byte_s[8:0]</obj_property>
+         <obj_property name="ObjectShortName">data_byte_s[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/i2c_0/slv_data_s" type="array">
+         <obj_property name="ElementShortName">slv_data_s[7:0]</obj_property>
+         <obj_property name="ObjectShortName">slv_data_s[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/dut/i2c_0/rcvd_data_s" type="array">
+         <obj_property name="ElementShortName">rcvd_data_s[71:0]</obj_property>
+         <obj_property name="ObjectShortName">rcvd_data_s[71:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
